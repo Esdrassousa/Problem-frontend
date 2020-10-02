@@ -1,0 +1,69 @@
+.CadastroProblema {
+    width: 100%;
+    max-width: 1180px;
+    max-height: 1000px;
+    padding: 0 30px;
+    margin: 32px auto;
+    display: flex;
+}
+.CadastroProblema form{
+    width: 100%;
+    height: 100;
+    position: relative;
+    display: inline;
+
+   
+    
+}
+.CadastroProblema span{
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.CadastroProblema textarea{
+    min-width: 600px;
+    min-height: 500px;
+    padding: 10px;
+    color: #333;
+    border: 2px solid #dcdce6;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.CadastroProblema  input{
+    min-width: 600px;
+    min-height: 60px;
+    padding: 10px;
+    color: #333;
+    border: 2px solid #dcdce6;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 10px;
+}
+
+.CadastroProblema  a{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 20px;
+    width: 100px;
+}
+.butto{
+    height:40px;
+    width: 150px;
+    border-radius: 4px;
+    border: 1px solid #dcdce6;
+    background: turquoise;
+    margin-left: 16px;
+    transition: boder-color 0.2s;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.butto:hover{
+    border-color: #999;
+
+}
